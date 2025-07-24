@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    <link rel="stylesheet" href="main.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Do List</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-    <header class="main-header">
-        <div class="user-profile">
-            <h1>Muji Anti</h1>
-            <h2>Assistant Manager</h2>
-            <h2>Date</h2>
-        </div>
-    </header>
+  <div class="container">
+    <div class="user-profile">
+      <h1>Muji Anti</h1>
+      <h2>Assistant Manager</h2>
+      <h2>Date</h2>
+    </div>
 
-    <section class="main">
-        <div class="text-area">
-            <h1>Add New Task</h1>
-            <h2> Task Name</h2>
-            <div class ="task-description"></div>
-            <h2>Priority Level</h2>
-        </div>
-        <button> Submit </button>
-    </section>
+    <div class="text-area">
+      <h1>Add New Task</h1>
+      <form>
+        <label for="todo">Task Name</label>
+        <input id="todo" type="text" placeholder="Enter your task name" />
 
-    <footer class="main-footer">
+        <label for="level">Priority Level</label>
+        <input id="level" type="text" placeholder="Choose task priority" />
 
-    </footer>
-    <script src="main.js"></script>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="list">
+      <div class="todo-list">To Do List</div>
+      <div class="done-list">Done List</div>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <p>© 2025 Muji Anti. All rights reserved.</p>
+  </footer>
 </body>
 </html>
