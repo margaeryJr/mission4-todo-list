@@ -7,19 +7,16 @@
 
 :root {
   --bg-primary: #f5f7fa;
-  --bg-secondary: #1a1a1a;
-  --bg-card: #c6e7f1;
   --text-primary: #1a1a1a;
   --text-secondary: #666666;
-  --border-color: #e0e0e0;
   --accent-color: #3c91e6;
 }
 
 body {
-  height: 100%;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
-  line-height: 1.5;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+min-height: 100vh;
+color: #4a5568;
 }
 
 .container {
