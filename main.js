@@ -12,6 +12,31 @@ const year = date.getFullYear();
 
 document.getElementById('today').innerHTML = today + ', ' + day + ' ' + month + ' ' + year;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Form handling demo
     document.querySelector('form').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -22,7 +47,7 @@ document.getElementById('today').innerHTML = today + ', ' + day + ' ' + month + 
             // Create visual feedback
             const button = this.querySelector('button');
             const originalText = button.textContent;
-            button.textContent = 'Task Added! ✨';
+            button.textContent = 'Task Added!';
             button.style.background = 'linear-gradient(145deg, #68d391, #48bb78)';
             
             setTimeout(() => {
@@ -36,7 +61,7 @@ document.getElementById('today').innerHTML = today + ', ' + day + ' ' + month + 
             // Soft error message
             const button = this.querySelector('button');
             const originalText = button.textContent;
-            button.textContent = 'Please fill all fields 🌸';
+            button.textContent = 'Please fill all fields!';
             button.style.background = 'linear-gradient(145deg, #fed7d7, #feb2b2)';
             
             setTimeout(() => {
@@ -45,3 +70,5 @@ document.getElementById('today').innerHTML = today + ', ' + day + ' ' + month + 
             }, 2000);
         }
     });
+
+*/

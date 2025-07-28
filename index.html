@@ -9,13 +9,35 @@
 <body>
   <div class="container">
     <div class="user-profile">
-      <h1>Muji Anti</h1>
-      <p>Division Manager</p>
+      <h1>Muji Ackerman</h1>
+      <img src="img/user.png" class="user-img" />
+      <p>Manager Divisi</p>
       <div id="today">Date</div>
     </div>
 
+    <div class="list">
+        <div class="todo-list">
+          📋 To Do List
+          <div class="todo-content">
+            Your pending tasks will appear here
+          </div>
+          <div class="delete-all">
+            Delete All Task
+          </div>
+        </div>
+        <div class="done-list">
+          ✅ Completed
+          <div class="done-content">
+            Your finished tasks will appear here
+          </div>
+          <div class="delete-all">
+            Delete All Task
+          </div>
+        </div>
+    </div>
+
    <div class="right-side">
-      <div class="text-area">
+     <div class="text-area">
         <h1>Add New Task</h1>
         <form>
           <label for="todo">Task Name</label>
@@ -24,9 +46,9 @@
           <label for="level">Priority Level</label>
           <select id="level" name="level">
             <option value="">Choose task priority</option>
-            <option value="low">🌱 Low Priority</option>
-            <option value="medium">☀️ Medium Priority</option>
-            <option value="high">🌟 High Priority</option>
+            <option value="low">Low Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="high">High Priority</option>
           </select>
 
           <label for="due-to">Due To</label>
@@ -34,27 +56,8 @@
           <button type="submit">Add Task</button>
         </form>
       </div>
-
-      <div class="list">
-        <div class="todo-list">
-          📋 To Do List
-          <div style="margin-top: 15px; font-size: 0.8em; opacity: 0.7; font-weight: 300;">
-            Your pending tasks will appear here
-          </div>
-        </div>
-        <div class="done-list">
-          ✅ Completed
-          <div style="margin-top: 15px; font-size: 0.8em; opacity: 0.7; font-weight: 300;">
-            Your finished tasks will appear here
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-
-  <footer class="main-footer">
-    <p>© 2025 Muji Anti. All rights reserved.</p>
-  </footer>
   <script src="main.js" type='text/javascript'> </script>
 </body>
 </html>
